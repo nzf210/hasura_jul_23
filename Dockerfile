@@ -7,6 +7,7 @@ ENV HASURA_GRAPHQL_ENABLE_CONSOLE=true
 ENV HASURA_GRAPHQL_DEV_MODE=true
 # For JWT Login
 ENV HASURA_GRAPHQL_JWT_SECRET=${HASURA_GRAPHQL_JWT_SECRET}
+ENV HASURA_GRAPHQL_CORS_DOMAIN=${HASURA_GRAPHQL_CORS_DOMAIN}
 
 # Heroku hobby tier PG has few limitations including 20 max connections
 # https://devcenter.heroku.com/articles/heroku-postgres-plans#hobby-tier
